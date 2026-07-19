@@ -20,7 +20,7 @@
 ## Abstract (~200 words)
 - Compact bidirectional promoters (BDPs; two protein-coding genes in a head-to-head pair ≤1 kb apart) place two genes under one shared regulatory element. At the PLAGL2–POFUT1 locus in colorectal cancer, we previously showed the two arms are the most tightly co-expressed of tested BDP pairs, that the coupling is a constitutive architectural property, and that 20q copy-number amplification acts as a coherent-feedforward driver of their shared output.
 - Whether this locus is a template for BDP behaviour genome-wide, and across cancers, was untested. Here we build BEACON, a model-based prediction tool that applies the PLAGL2–POFUT1 logic to **792** compact BDPs defined by architecture alone across **14** TCGA cancer types.
-- We show: (i) compact BDPs are broadly coordinated in CRC and PLAGL2–POFUT1 ranks first, reproducing the founding locus; (ii) an architecture-defined universe — including 287 promoters silent in the discovery cell line — recovers co-drivers a cell-line-conditioned list would miss; (iii) per-cancer co-driver burden tracks each cancer's amplification landscape (ρ=0.99), and PLAGL2–POFUT1's coordinated output scales with 20q dosage across cancers.
+- We show: (i) compact BDPs are broadly coordinated in CRC and PLAGL2–POFUT1 ranks first, corroborating the founding locus; (ii) an architecture-defined universe — including 287 promoters silent in the discovery cell line — recovers co-drivers a cell-line-conditioned list would miss; (iii) per-cancer co-driver burden tracks each cancer's amplification landscape (ρ=0.99), and PLAGL2–POFUT1's coordinated output scales with 20q dosage across cancers.
 - BEACON is released as a client-side interactive resource for hypothesis generation.
 
 ---
@@ -38,8 +38,8 @@
 
 ### R1 · Compact BDPs are broadly coordinated in CRC, and the founding locus ranks first  → **Figure 1**
 - Of **452** compact protein-coding BDPs analyzable in colorectal tumors (TCGA COAD+READ, n=590), **72%** are coordinated (arm–arm Spearman ρ>0.3).
-- **PLAGL2–POFUT1 ranks 1 of 452** (coord ρ=0.905), independently reproducing Paper 1's rank-first, r≈0.91 finding (Li et al. 2019) and setting the tone that compact BDPs are a coherent regulatory class.
-- Caco-2 nascent-RNA coupling concords with CRC tumor coordination only **weakly** at genome scale (ρ=0.12, p=0.026, n=346). We state this plainly: the strong validation is **locus-level reproduction**, not the genome-wide concordance — nascent coupling in one cell line and steady-state tumor coordination are different measurements.
+- **PLAGL2–POFUT1 ranks 1 of 452** (coord ρ=0.905), consistent with the rank-first, r≈0.91 co-expression previously reported for this locus in CRC (Li et al. 2019; the value here is computed by a different method — Spearman across TCGA tumors — so it corroborates rather than exactly reproduces), and setting the tone that compact BDPs are a coherent regulatory class.
+- Caco-2 nascent-RNA coupling concords with CRC tumor coordination only **weakly** at genome scale (ρ=0.12, p=0.026, n=346). We state this plainly: the strong validation is **locus-level corroboration** (PLAGL2–POFUT1 ranking first, consistent with Li et al. 2019), not the genome-wide concordance; nascent coupling in one cell line and steady-state tumor coordination are different measurements.
 
 ### R2 · An architecture-defined universe removes cell-line bias and recovers hidden co-drivers  → **Figure 2**
 - The discovery set (505 BDPs) is conditioned on Caco-2 expression — a cell-line ascertainment bias for a cross-cancer tool.
@@ -82,9 +82,9 @@
 - Precompute: `beacon_pancancer_precompute.csv` (792 BDPs × 14 cancers = 11,088 rows).
 
 ## References to assemble (verify DOIs before submission)
-- Li et al. 2019, *eBioMedicine* 45:124–138 — PLAGL2 & POFUT1 bidirectional promoter, CRC (the r≈0.91 anchor).
-- Thompson, Christensen & Marsit 2018, *Int J Mol Sci* 19:2296 — pan-cancer BDP susceptibility (methylation/mutation/CNA).
-- Chen et al. 2021, *Front Genet* 11:560997 — pan-cancer head-to-head gene pairs.
+- Li et al. 2019, *EBioMedicine* 45:124–138 — PLAGL2 & POFUT1 bidirectional promoter, CRC (the r≈0.91 anchor). PMID 31279780; doi:10.1016/j.ebiom.2019.06.051. *(verified against PubMed 2026-07-19)*
+- Thompson, Christensen & Marsit 2018, *Int J Mol Sci* 19:2296 — pan-cancer BDP susceptibility (methylation/mutation/CNA). PMID 30081598; doi:10.3390/ijms19082296. *(verified 2026-07-19)*
+- Chen et al. 2021, *Front Genet* 11:560997 — pan-cancer head-to-head gene pairs. PMID 33488665; doi:10.3389/fgene.2020.560997 (journal vol. 2020, published online 2021-01-07). *(verified 2026-07-19)*
 - [Paper 1] — PLAGL2–POFUT1 locus study (this group; title/citation pending).
 - [Compact-BDP atlas] — genome-wide compact-BDP resource (this group; companion).
 - Trinklein et al. 2004; Yang, Koehly & Elnitski 2007 — bidirectional promoter definition & cancer co-regulation.

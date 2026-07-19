@@ -2,3 +2,7 @@ notebooks/figures/
 notebooks/.ipynb_checkpoints/
 __pycache__/
 .DS_Store
+
+# Ignore all markdown except README.md (manuscript, novelty memo, push notes stay local)
+*.md
+!README.md
