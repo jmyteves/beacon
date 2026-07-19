@@ -1,6 +1,6 @@
-# BEACON
+# BEACON: **Bidirectional-promoter Expression And Copy-number Output Navigator**
 
-**Bidirectional-promoter Expression And Copy-number Output Navigator**
+
 
 A model-based tool that predicts, for any compact bidirectional promoter (BDP) in any of 14 cancers, whether copy-number amplification is a coherent-feedforward **co-driver** of the promoter's coordinated output — and returns four properties you can test in your own cohort.
 
