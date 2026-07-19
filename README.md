@@ -39,14 +39,14 @@ index.html                              the tool (self-contained, client-side)
 data/
   beacon_pancancer.json                 embedded prediction grid (used by index.html)
   beacon_pancancer_precompute.csv       full table, 792 BDPs × 14 cancers (11,088 rows)
-figures/                                the four main figures (PNG, 300 dpi)
 notebooks/
   BEACON_figures.ipynb                  reproduces all figures from the precompute
   data/                                 inputs for the notebook
-manuscript/
-  BEACON_pancancer_shortcomms.md        short-communications manuscript
-  NOVELTY_SCAN.md                       literature positioning memo
 ```
+
+The figures (PNG) and the manuscript are kept locally and are not part of this
+published repository. The notebook regenerates the figures on demand from the
+precompute in `data/`.
 
 ## Reproduce the figures
 

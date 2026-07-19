@@ -6,3 +6,7 @@ __pycache__/
 # Ignore all markdown except README.md (manuscript, novelty memo, push notes stay local)
 *.md
 !README.md
+
+# Local & private (not published)
+figures/
+manuscript/
