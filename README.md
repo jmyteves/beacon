@@ -114,7 +114,23 @@ The notebook loads `data/beacon_pancancer_precompute.csv` and regenerates all fo
 
 ## Citation
 
-If you use BEACON, please cite the archived release (Zenodo DOI, see `CITATION.cff`), the companion PLAGL2-POFUT1 locus study, and the compact-BDP atlas (citations pending; see `manuscript/`).
+If you use BEACON, please cite the archived release:
+
+> Teves, J.M. (2026). *BEACON: pan-cancer prediction of copy-number co-drivers at compact bidirectional promoters* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21504773
+
+```bibtex
+@software{teves_beacon_2026,
+  author    = {Teves, Joji Marie},
+  title     = {BEACON: pan-cancer prediction of copy-number co-drivers at compact bidirectional promoters},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21504773},
+  url       = {https://github.com/jmyteves/beacon}
+}
+```
+
+GitHub also renders a "Cite this repository" button from `CITATION.cff`. Please additionally cite the companion PLAGL2-POFUT1 locus study and the compact-BDP atlas when relevant (citations pending; see `manuscript/`).
 
 ## License
 
