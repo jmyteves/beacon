@@ -1,0 +1,35 @@
+{
+  "title": "BEACON: pan-cancer prediction of copy-number co-drivers at compact bidirectional promoters",
+  "description": "BEACON (Bidirectional-promoter Expression And Copy-number Output Navigator) scores compact bidirectional promoters (protein-coding gene pairs with head-to-head TSSs less than 1 kb apart) for copy-number co-driver behaviour across 14 TCGA cancers. This archive contains the source, the precomputed prediction table (792 BDPs x 14 cancers = 11,088 predictions), the reproduction notebook, and the client-side interactive tool. Data derived from cBioPortal TCGA PanCancer Atlas 2018.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Teves, Joji Marie",
+      "orcid": "0000-0001-9289-2357",
+      "affiliation": "IDIBELL (Bellvitge Biomedical Research Institute)"
+    }
+  ],
+  "keywords": [
+    "bidirectional promoters",
+    "cancer genomics",
+    "copy-number amplification",
+    "TCGA",
+    "co-expression",
+    "PLAGL2",
+    "POFUT1"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/jmyteves/beacon",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://jmyteves.github.io/beacon/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}
