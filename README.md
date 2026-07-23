@@ -4,8 +4,7 @@ A model-based tool that predicts, for any compact bidirectional promoter (BDP) i
 
 **Live tool:** https://jmyteves.github.io/beacon/
 
-<!-- After the first Zenodo release, paste the concept-DOI badge here (Zenodo shows the exact markdown on the repo's Zenodo page). -->
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21504773.svg)](https://doi.org/10.5281/zenodo.21504773)
 
 ---
 
