@@ -14,7 +14,14 @@ authors:
     orcid: "https://orcid.org/0000-0001-9289-2357"
     affiliation: "University of Copenhagen, Copenhagen, Denmark"
 version: "1.0.0"
-doi: "10.5281/zenodo.21504773"
+doi: "10.5281/zenodo.21504772"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21504772"
+    description: "Concept DOI (all versions; resolves to the latest release)"
+  - type: doi
+    value: "10.5281/zenodo.21504773"
+    description: "Version DOI for v1.0.0"
 license: MIT
 date-released: "2026-07-23"
 repository-code: "https://github.com/jmyteves/beacon"
@@ -27,7 +34,3 @@ keywords:
   - co-expression
   - PLAGL2
   - POFUT1
-# After minting the Zenodo DOI, add it here so the "Cite this repository"
-# button and citation managers resolve to the archived release:
-# doi: "10.5281/zenodo.XXXXXXX"
-# date-released: "2026-XX-XX"

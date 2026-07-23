@@ -4,7 +4,7 @@ A model-based tool that predicts, for any compact bidirectional promoter (BDP) i
 
 **Live tool:** https://jmyteves.github.io/beacon/
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21504773.svg)](https://doi.org/10.5281/zenodo.21504773)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21504772.svg)](https://doi.org/10.5281/zenodo.21504772)
 
 ---
 
@@ -116,7 +116,7 @@ The notebook loads `data/beacon_pancancer_precompute.csv` and regenerates all fo
 
 If you use BEACON, please cite the archived release:
 
-> Teves, J.M. (2026). *BEACON: pan-cancer prediction of copy-number co-drivers at compact bidirectional promoters* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21504773
+> Teves, J.M. (2026). *BEACON: pan-cancer prediction of copy-number co-drivers at compact bidirectional promoters* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21504772
 
 ```bibtex
 @software{teves_beacon_2026,
@@ -125,7 +125,7 @@ If you use BEACON, please cite the archived release:
   version   = {1.0.0},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21504773},
+  doi       = {10.5281/zenodo.21504772},
   url       = {https://github.com/jmyteves/beacon}
 }
 ```
